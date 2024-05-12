@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(4, 58, 144);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 25%;
+}
+
+.all-btns .copy-btn span {
+    display: none;
+    position: absolute;
+    font-size: 8px;
+}
+.container h1{
+    color: rgb(32, 183, 243);
+    text-align: center;
+    padding: 10px;
+}
+.author{
+    text-align: justify;
+    margin-top: 20px;
+}
+.author span{
+    border-top: 2px solid rgb(32, 183, 243);
+    
+}
+.bxs-quote-alt-left{
+    color: rgb(32, 183, 243);
+    font-size: 2rem;
+}
+.all-btns{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+.all-btns li{
+    list-style: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(4, 58, 144);
+    color: white;
+    margin: 10px;
+    cursor: pointer;
+}
+.all-btns a{
+    color: white;
+    /* background-color: black; */
+}
+.all-btns .twitt-btn{
+    background-color: black;
+}
